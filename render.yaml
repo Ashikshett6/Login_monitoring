@@ -1,0 +1,36 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# Repo: https://github.com/Ashikshett6/Login_monitoring
+#
+# MySQL: Create on Railway (free trial) or any MySQL host, then set DB_* env vars on the API service.
+
+services:
+  - type: web
+    name: login-monitoring-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: DB_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: https://login-monitoring-ui.onrender.com
+
+  - type: web
+    name: login-monitoring-ui
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://login-monitoring-api.onrender.com/api

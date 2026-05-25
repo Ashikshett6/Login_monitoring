@@ -4,7 +4,9 @@ Full-stack login monitoring project with user authentication, login audit logs, 
 
 [![CI](https://github.com/Ashikshett6/Login_monitoring/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashikshett6/Login_monitoring/actions/workflows/ci.yml)
 
-> **Deploy to GitHub & run after clone:** see [DEPLOY.md](DEPLOY.md)
+> **Deploy to GitHub & run after clone:** see [DEPLOY.md](DEPLOY.md)  
+> **Deploy to cloud (Render):** see [DEPLOY_RENDER.md](DEPLOY_RENDER.md)  
+> [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Ashikshett6/Login_monitoring)
 
 ## Project Structure
 
