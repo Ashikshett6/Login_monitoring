@@ -15,7 +15,7 @@ Create a new repo on GitHub (website) named `login-monitoring-system`, then:
 
 ```powershell
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/login-monitoring-system.git
+git remote add origin https://github.com/shettyashik15/login-monitoring-system.git
 git push -u origin main
 ```
 
@@ -26,7 +26,7 @@ Replace `YOUR_USERNAME` with your GitHub username.
 ## 2) Clone and run on any machine
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/login-monitoring-system.git
+git clone https://github.com/shettyashik15/login-monitoring-system.git
 cd login-monitoring-system
 ```
 
