@@ -6,7 +6,7 @@ Your GitHub: https://github.com/Ashikshett6
 
 Open this link and click **Create repository** (do **not** add README, .gitignore, or license):
 
-https://github.com/new?owner=Ashikshett6&repo=login-monitoring-system&description=Full-stack+Login+Monitoring+System
+https://github.com/Ashikshett6/Login_monitoring
 
 ## Step 2 — Push from your PC
 
@@ -19,7 +19,7 @@ git push -u origin main
 
 ## After push
 
-- Repo URL: https://github.com/Ashikshett6/login-monitoring-system
+- Repo URL: https://github.com/Ashikshett6/Login_monitoring
 - CI runs automatically on the **Actions** tab
 
 ## Optional — GitHub CLI (future)

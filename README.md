@@ -2,7 +2,7 @@
 
 Full-stack login monitoring project with user authentication, login audit logs, account lockout policy, suspicious login detection, and an admin dashboard.
 
-[![CI](https://github.com/Ashikshett6/login-monitoring-system/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashikshett6/login-monitoring-system/actions/workflows/ci.yml)
+[![CI](https://github.com/Ashikshett6/Login_monitoring/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashikshett6/Login_monitoring/actions/workflows/ci.yml)
 
 > **Deploy to GitHub & run after clone:** see [DEPLOY.md](DEPLOY.md)
 
