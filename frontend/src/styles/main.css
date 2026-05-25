@@ -1,0 +1,14 @@
+body {
+  background: #f3f5f9;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.truncate-cell {
+  max-width: 330px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
